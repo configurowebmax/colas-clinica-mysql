@@ -1,0 +1,50 @@
+/* (A) WHOLE PAGE */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 20px; margin: 0;
+    width: 100vw; height: 100vh;
+    color: #fff;
+    background: #000;
+    max-width: 640px;
+  }
+  
+  /* (B) SERVER STATUS */
+  #server {
+    padding: 0 0 0 10px;
+    margin-bottom: 10px;
+  }
+  #server.red {
+    border-left: 5px solid #f00;
+    color: #ed0000;
+  }
+  #server.green {
+    border-left: 5px solid #198512;
+    color: #198512;
+  }
+  
+  /* (C) QUEUE STATUS */
+  #qTotal, #qNow {
+    display: flex;
+    padding: 40px 20px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  #qTotal {
+    color: #ffffff;
+    background: #fc7d1c;
+  }
+  #qNow {
+    color: #ffffff;
+    background: #1984bc;
+  }
+  .qTxt, .qNum { font-family: Impact, 'Arial Narrow Bold', sans-serif !important; }
+  .qTxt { width: 120px; }
+  
+  /* (D) INSTRUCTION */
+  #instruct {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }

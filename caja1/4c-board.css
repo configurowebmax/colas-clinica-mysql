@@ -1,0 +1,56 @@
+/* (A) WHOLE PAGE */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; margin: 0;
+    width: 100vw; height: 100vh;
+    background: #000;
+  }
+  
+  /* (B) START */
+  #start {
+    font-size: 32px;
+    color: #fff;
+    padding: 20px;
+    background: #fc7d1c;
+    cursor: pointer;
+  }
+  
+  /* (C) DISPLAY BOARD */
+  #board { display: none; } 
+  
+  /* (D) SERVER STATUS */
+  #server {
+    padding: 0 0 0 10px;
+    margin-bottom: 5px;
+  }
+  #server.red {
+    border-left: 5px solid #f00;
+    color: #ed0000;
+  }
+  #server.green {
+    border-left: 5px solid #198512;
+    color: #198512;
+  }
+  
+  /* (E) QUEUE STATUS */
+  #queue {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #qTxt, #qNum {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif !important;
+  }
+  #qTxt {
+    color: #fff;
+    font-size: 32px;
+  }
+  #qNum {
+    color: #fc7d1c;
+    font-size: 100px;
+  }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tablero de Turnos</title>
+    <script src="2-queue.js"></script>
+    <script src="4b-board.js"></script>
+    <link rel="stylesheet" href="4c-board.css">
+    <link rel="shortcut icon" href="faviconconfiguroweb.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- (A) CLICK TO START -->
+    <div id="start" onclick="board.start()">EMPEZAR</div>
+
+    <!-- (B) DISPLAY BOARD -->
+    <div id="board">
+      <!-- (B1) SERVER STATUS -->
+      <div id="server" class="red">Desconectado</div>
+  
+      <!-- (B2) CURRENT QUEUE NUMBER -->
+      <div id="qTxt">Caja 2</div>
+      <div id="qNum">0</div>
+    </div>
+  </body>
+</html>
